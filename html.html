@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machine Test Evaluation</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <form id="userForm">
+        <input type="text" id="name" placeholder="Enter your name" required>
+        <input type="file" id="photo" accept="image/*" required>
+        <select id="rank">
+            <option>First Rank</option>
+            <option>Second Rank</option>
+            <option>Third Rank</option>
+        </select>
+        <input type="hidden" id="idNumber">
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="output">
+        <div class="id-container">
+            <p>ID: <span id="outputId"></span></p>
+        </div>
+        <div class="user-photo">
+            <img id="outputPhoto" src="" alt="User Photo">
+        </div>
+        <div class="user-info">
+            <p>User Name: <span id="outputName"></span></p>
+        </div>
+        <div class="rank-info">
+            <p>Congratulations!! You have secured <span id="outputRank"></span></p>
+            <p id="rankBold"><span id="outputRankBold"></span></p>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="javascript.js"></script>
+</body>
+</html>

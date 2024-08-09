@@ -1,0 +1,83 @@
+form {
+  margin: 20px auto;
+  width: 320px; 
+  padding: 20px;
+  border: 2px solid #ea717f; 
+  border-radius: 10px;
+  text-align: left;
+  font-family: Arial, sans-serif;
+  background-color: #a38f8fa4; 
+}
+
+form input, form select, form button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+  border-radius: 5px; 
+  border: 1px solid #ccc; 
+}
+
+form button {
+ 
+ background-color: #f56679;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #9ae984; 
+}
+
+#output {
+  border: 5px solid #f67176; 
+  width: 600px; 
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  display: none;
+}
+
+.id-container {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+.id-container p {
+  font-weight: bold;
+  margin: 0;
+}
+
+.user-photo {
+
+  background-color: #f79eae;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.user-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.user-info p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.rank-info p {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.rank-info #rankBold {
+  font-weight: bold;
+  font-size: 24px;
+}
